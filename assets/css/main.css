@@ -176,8 +176,12 @@ html::-webkit-scrollbar {
   width: 5px;
 }
 html::-webkit-scrollbar-thumb {
-  background-color: #DA1A00;
+  background-color: #da1a00;
   width: 3px;
+}
+
+ul {
+  list-style: none;
 }
 
 * {
@@ -187,32 +191,171 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  font-family: "TT Travels";
-  background: #E5E5E5;
+  font-family: "SFpro Text Regular";
+  background: #ffffff;
 }
 
 .wrapper {
   overflow: hidden;
 }
 
-@media (max-width: 1920px) {
-  .container {
-    max-width: 1620px;
-    margin: 0 auto;
-    padding: 0;
-  }
+header .header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-@media (max-width: 1600px) {
-  .container {
-    max-width: 1320px;
-  }
+header .header_top_wrapper {
+  padding: 20px 0;
+  border-bottom: 1px solid #f1f1f1;
 }
-@media (max-width: 1400px) {
-  .container {
-    max-width: 1140px;
-  }
+header .header_start {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-@media (max-width: 1200px) {
+header .header_logo {
+  margin-right: 10px;
+}
+header .header_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header .header_item_text a {
+  font-size: 16px;
+  color: #000;
+}
+header .header_item_text p {
+  font-size: 13px;
+  color: #000;
+  text-align: center;
+}
+header .login img {
+  width: 15px;
+}
+header .card_btn img {
+  width: 25px;
+}
+header .header_input {
+  position: relative;
+}
+header .header_input input {
+  width: 235px;
+  height: 30px;
+  padding: 0 30px 0 8px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #d4d4d4;
+  outline: none;
+  border-radius: 5px;
+}
+header .header_input input::-moz-placeholder {
+  color: #d4d4d4;
+}
+header .header_input input::placeholder {
+  color: #d4d4d4;
+}
+header .header_input .search_icon {
+  position: absolute;
+  top: 5px;
+  margin: auto;
+  right: 5px;
+}
+header .header_end {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+header .login {
+  display: flex;
+  align-items: end;
+  padding: 12px;
+  gap: 5px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+header .login span {
+  font-size: 14px;
+  color: #000;
+}
+header .card_btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: #ffa800;
+  border-radius: 50%;
+}
+header .header_bottom {
+  padding: 9px 0;
+}
+header .header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+header .header_nav .nav_item a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .header_nav .nav_title {
+  font-size: 16px;
+  color: #000;
+}
+
+.submenu .submenu_top {
+  padding: 10px 0;
+  background-color: #e5e5e5;
+  box-shadow: 0px 21px 37px -28px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+.submenu .submenu_top_block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.submenu .submenu_top_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.submenu .submenu_top_title {
+  font-size: 13.5px;
+  color: #000;
+}
+.submenu .submenu_bottom {
+  padding: 10px 0;
+  background-color: #f1f1f1;
+}
+.submenu .submenu_bottom_block {
+  display: flex;
+  justify-content: space-between;
+}
+.submenu .submenu_bottom_item {
+  padding: 0 27px;
+  border-left: 1px solid #dbdbdb;
+}
+.submenu .submenu_bottom_item:first-child {
+  border: none;
+}
+.submenu .submenu_bottom_item img {
+  filter: grayscale(100%);
+  max-width: 38px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 1300px) {
   .container {
     max-width: 960px;
   }
