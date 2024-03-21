@@ -1,13 +1,13 @@
 $(document).ready(function () {
 	// hamburger
-	$(".hamurger_menu").on("click", function (e) {
+	$(".hamburger").on("click", function (e) {
 		e.preventDefault();
-		$(".header_menus").addClass("active");
+		$(".header_top_box").addClass("active");
 	});
 
 	$(".close").on("click", function (e) {
 		e.preventDefault();
-		$(".header_menus").removeClass("active");
+		$(".header_top_box").removeClass("active");
 	});
 
 	// swiper

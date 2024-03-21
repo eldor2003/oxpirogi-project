@@ -1,13 +1,17 @@
 // header
 header {
-	.header_top {
+	.header_top_box {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
+
 	.header_top_wrapper {
 		padding: 20px 0;
 		border-bottom: 1px solid #f1f1f1;
+	}
+	.mobile_appear {
+		display: none;
 	}
 	.header_start {
 		display: flex;

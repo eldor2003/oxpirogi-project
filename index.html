@@ -23,61 +23,85 @@
             <div class="header_top_wrapper">
                 <div class="container">
                     <div class="header_top ">
-                        <div class="header_start">
-                            <div class="header_logo">
-                                <a href="#">
-                                    <img src="./assets/images/menu1/logo.png" alt="">
-                                </a>
-                            </div>
-                            <!-- header_item -->
-                            <div class="header_item">
-                                <div class="header_icon">
-                                    <img src="./assets/images/menu1/phone.png" alt="">
-                                </div>
-                                <div class="header_item_text">
-                                    <a href="tel:+73912855222">+7 (391) 285-52-22</a>
-                                    <p>Пн-Вс: 9:00-20:00</p>
-                                </div>
-                            </div>
-                            <!-- header_item -->
-                            <div class="header_item">
-                                <div class="header_icon">
-                                    <img src="./assets/images/menu1/email.png" alt="">
-                                </div>
-                                <div class="header_item_text">
-                                    <a href="mailto:sibbest@list.ru">sibbest@list.ru</a>
-                                    <p>Задать вопрос</p>
-                                </div>
-                            </div>
-                            <!-- header_item -->
-                            <div class="header_item">
-                                <div class="header_icon">
-                                    <img src="./assets/images/menu1/phone.png" alt="">
-                                </div>
-                                <div class="header_item_text">
-                                    <a href="#">ул. Качинская, д. 62</a>
-                                    <p>Самовывоз</p>
-                                </div>
-                            </div>
-                            <!-- header_input -->
-                            <div class="header_input">
-                                <input type="text" placeholder="Поиск" name="search">
-                                <div class="search_icon">
-                                    <img src="./assets/images/menu1/search.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header_end">
-                            <a href="#" class="login">
-                                <img src="./assets/images/menu1/avatar.png" alt="">
-                                <span>Войти</span>
+                        <div class="mobile_appear">
+                            <a href="#" class="close">
+                                <img src="./assets/images/mobile/close.svg" alt="">
                             </a>
-                            <div class="card_btn">
-                                <a href="#">
-                                    <img src="./assets/images/menu1/cart.png" alt="">
+                            <a href="#" class="hamburger">
+                                <img src="./assets/images/mobile/hamburger.png" alt="">
+                            </a>
+                            <a href="#" class="logo">
+                                <img src="./assets/images/menu1/logo.png" alt="">
+                            </a>
+                            <a href="#" class="avatar">
+                                <img src="./assets/images/menu1/avatar.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header_top_box">
+                            <div class="header_start">
+                                <!-- mobile hamburger -->
+                                <div class="mobile_appear">
+                                    <a href="#" class="close">
+                                        <img src="./assets/images/mobile/close.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="header_logo">
+                                    <a href="#">
+                                        <img src="./assets/images/menu1/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- header_item -->
+                                <div class="header_item">
+                                    <div class="header_icon">
+                                        <img src="./assets/images/menu1/phone.png" alt="">
+                                    </div>
+                                    <div class="header_item_text">
+                                        <a href="tel:+73912855222">+7 (391) 285-52-22</a>
+                                        <p>Пн-Вс: 9:00-20:00</p>
+                                    </div>
+                                </div>
+                                <!-- header_item -->
+                                <div class="header_item">
+                                    <div class="header_icon">
+                                        <img src="./assets/images/menu1/email.png" alt="">
+                                    </div>
+                                    <div class="header_item_text">
+                                        <a href="mailto:sibbest@list.ru">sibbest@list.ru</a>
+                                        <p>Задать вопрос</p>
+                                    </div>
+                                </div>
+                                <!-- header_item -->
+                                <div class="header_item">
+                                    <div class="header_icon">
+                                        <img src="./assets/images/menu1/phone.png" alt="">
+                                    </div>
+                                    <div class="header_item_text">
+                                        <a href="#">ул. Качинская, д. 62</a>
+                                        <p>Самовывоз</p>
+                                    </div>
+                                </div>
+                                <!-- header_input -->
+                                <div class="header_input">
+                                    <input type="text" placeholder="Поиск" name="search">
+                                    <div class="search_icon">
+                                        <img src="./assets/images/menu1/search.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_end">
+                                <a href="#" class="login">
+                                    <img src="./assets/images/menu1/avatar.png" alt="">
+                                    <span>Войти</span>
                                 </a>
+                                <div class="card_btn">
+                                    <a href="#">
+                                        <img src="./assets/images/menu1/cart.png" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -238,7 +262,7 @@
                         <a href="#" class="submenu_bottom_item">
                             <img src="./assets/images/submenu2/cheese.png" alt="">
                         </a>
-                        <a href="#" class="submenu_bottom_item">
+                        <a href="#" class="submenu_bottom_item active">
                             <img src="./assets/images/submenu2/raspberry.png" alt="">
                         </a>
                         <a href="#" class="submenu_bottom_item">
@@ -284,79 +308,112 @@
                         <div class="product_img">
                             <img src="./assets/images/product/pirog3.png" alt="">
                         </div>
-                        <p class="product_name">
-                            Тарт творожный с персиком
-                        </p>
-                        <p class="product_desc">
+                        <div class="product_left">
+                            <p class="product_name">
+                                Тарт творожный с персиком
+                            </p>
+                            <p class="product_desc">
 
-                            Персик, творог, сметана, сахар песок,
-                            яйцо, ванилин, тесто песочное
+                                Персик, творог, сметана, сахар песок,
+                                яйцо, ванилин, тесто песочное
 
-                        </p>
-                        <div class="product_bottom">
-                            <p class="product_price">840 ₽</p>
-                            <a href="#" class="product_btn">В корзину</a>
+                            </p>
+                            <div class="product_bottom">
+                                <p class="product_price">840 ₽</p>
+                                <a href="#" class="product_btn">В корзину</a>
+                                <div class="mobile_appear">
+                                    <a href="#" class="shopping">
+                                        <img src="./assets/images/mobile/shopping-cart.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
                     <!-- product_item -->
                     <div class="product_item">
                         <div class="product_img">
                             <img src="./assets/images/product/pirog2.png" alt="">
                         </div>
-                        <p class="product_name">
-                            Финский черничный пирог
-                        </p>
-                        <p class="product_desc">
+                        <div class="product_left">
+                            <p class="product_name">
+                                Финский черничный пирог
+                            </p>
+                            <p class="product_desc">
 
 
-                            Пирог с черникой в сметанной заливке.
-                            Выпекается в песочном тесте
+                                Пирог с черникой в сметанной заливке.
+                                Выпекается в песочном тесте
 
-                        </p>
-                        <div class="product_bottom">
-                            <p class="product_price">790 ₽</p>
-                            <a href="#" class="product_btn">В корзину</a>
+                            </p>
+                            <div class="product_bottom">
+                                <p class="product_price">790 ₽</p>
+                                <a href="#" class="product_btn">В корзину</a>
+                                <div class="mobile_appear">
+                                    <a href="#" class="shopping">
+                                        <img src="./assets/images/mobile/shopping-cart.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                     <!-- product_item -->
                     <div class="product_item">
                         <div class="product_img">
                             <img src="./assets/images/product/pirog3.png" alt="">
                         </div>
-                        <p class="product_name">
-                            Пирог с малиной и базиликом
-                        </p>
-                        <p class="product_desc">
+                        <div class="product_left">
+                            <p class="product_name">
+                                Пирог с малиной и базиликом
+                            </p>
+                            <p class="product_desc">
 
 
-                            Открытый пирог на песочном тесте взбитые
-                            сливки, свежий базилик и малина
+                                Открытый пирог на песочном тесте взбитые
+                                сливки, свежий базилик и малина
 
-                        </p>
-                        <div class="product_bottom">
-                            <p class="product_price">870 ₽</p>
-                            <a href="#" class="product_btn">В корзину</a>
+                            </p>
+                            <div class="product_bottom">
+                                <p class="product_price">870 ₽</p>
+                                <a href="#" class="product_btn">В корзину</a>
+                                <div class="mobile_appear">
+                                    <a href="#" class="shopping">
+                                        <img src="./assets/images/mobile/shopping-cart.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                     <!-- product_item -->
                     <div class="product_item">
                         <div class="product_img">
                             <img src="./assets/images/product/pirog4.png" alt="">
                         </div>
-                        <p class="product_name">
-                            Пирог со сливой
-                        </p>
-                        <p class="product_desc">
+                        <div class="product_left">
+                            <p class="product_name">
+                                Пирог со сливой
+                            </p>
+                            <p class="product_desc">
 
 
-                            Пирог с ярким вкусом спелой сливы и запеченным
-                            миндальным кремом на песочном корже
+                                Пирог с ярким вкусом спелой сливы и запеченным
+                                миндальным кремом на песочном корже
 
-                        </p>
-                        <div class="product_bottom">
-                            <p class="product_price">640 ₽</p>
-                            <a href="#" class="product_btn">В корзину</a>
+                            </p>
+                            <div class="product_bottom">
+                                <p class="product_price">640 ₽</p>
+                                <a href="#" class="product_btn">В корзину</a>
+                                <div class="mobile_appear">
+                                    <a href="#" class="shopping">
+                                        <img src="./assets/images/mobile/shopping-cart.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -505,7 +562,40 @@
                     </div>
                 </div>
             </div>
-
+            <div class="mobile_appear">
+                <div class="mobile_footer_block">
+                    <div class="mobile_footer_item">
+                        <a href="#" class="icon">
+                            <img src="./assets/images/mobile/main-menu.png" alt="">
+                        </a>
+                        <p class="mobile_name">Меню</p>
+                    </div>
+                    <div class="mobile_footer_item">
+                        <a href="#" class="icon">
+                            <img src="./assets/images/mobile/discount.png" alt="">
+                        </a>
+                        <p class="mobile_name">Акции</p>
+                    </div>
+                    <div class="mobile_footer_item">
+                        <a href="#" class="icon">
+                            <img src="./assets/images/mobile/shopping.png" alt="">
+                        </a>
+                        <p class="mobile_name">Корзина</p>
+                    </div>
+                    <div class="mobile_footer_item">
+                        <a href="#" class="icon">
+                            <img src="./assets/images/mobile/pin.png" alt="">
+                        </a>
+                        <p class="mobile_name">Самовывоз</p>
+                    </div>
+                    <div class="mobile_footer_item">
+                        <a href="#" class="icon">
+                            <img src="./assets/images/mobile/search.png" alt="">
+                        </a>
+                        <p class="mobile_name">Поиск</p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
     </div>
