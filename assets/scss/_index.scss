@@ -158,3 +158,150 @@ header {
 		}
 	}
 }
+
+// swiper_product
+.swiper_product {
+	padding: 20px 0 40px 0;
+	img {
+		width: 100%;
+		object-fit: cover;
+
+		border-radius: 20px;
+	}
+}
+
+// product
+.product {
+	margin-bottom: 70px;
+	.product_title {
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: #000;
+	}
+	.product_block {
+		display: flex;
+		justify-content: space-between;
+	}
+	.product_img {
+		height: 225px;
+	}
+	.product_name {
+		font-size: 18px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.product_desc {
+		margin-bottom: 15px;
+		font-size: 12px;
+		text-align: center;
+	}
+	.product_item {
+		flex: 0 0 auto;
+		width: calc(25% - 26px);
+	}
+	.product_bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.product_price {
+		font-size: 16px;
+	}
+	.product_btn {
+		padding: 13px 28px;
+		background-color: #e3e3e3;
+		color: #000;
+		border-radius: 15px;
+	}
+}
+
+footer {
+	background-color: #f1f1f1;
+	padding: 80px 0 0 0;
+	.footer_block {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 70px;
+	}
+	.footer_item {
+		flex: 0 0 auto;
+		width: calc(25% - 64px);
+	}
+	.footer_name {
+		color: #932322;
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.footer_details {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+		margin-bottom: 30px;
+		a {
+			font-size: 18px;
+			color: #444444;
+		}
+	}
+	.footer_navs {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		li a {
+			color: #000;
+			font-size: 16px;
+			display: flex;
+			gap: 7px;
+			align-items: center;
+		}
+		img {
+			width: 20px;
+		}
+	}
+	.footer_buttons {
+		gap: 20px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 25px;
+		a {
+			padding: 13px 0px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #932322;
+			border-radius: 15px;
+			font-size: 18px;
+			color: #fff;
+		}
+	}
+	.footer_socials {
+		display: flex;
+		gap: 20px;
+		justify-content: center;
+	}
+	.ask_question {
+		font-size: 16px;
+		color: #000;
+		display: block;
+		text-align: center;
+	}
+	.footer_bottom_wrapper {
+		background-color: #444444;
+		padding: 25px 0;
+	}
+	.footer_left {
+		p {
+			color: #cccccc;
+		}
+	}
+	.footer_bottom {
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer_right {
+		p {
+			color: #cccccc;
+			text-align: end;
+		}
+	}
+}
