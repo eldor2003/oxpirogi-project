@@ -218,6 +218,12 @@ header {
 		box-shadow: 0px 21px 37px -28px rgba(0, 0, 0, 0.6);
 		position: relative;
 	}
+	.submenu_top_general_block {
+		display: flex;
+		gap: 10px;
+		justify-content: center;
+		width: 100%;
+	}
 	.submenu_top_block {
 		display: flex;
 		justify-content: space-between;
@@ -273,9 +279,18 @@ header {
 		padding: 10px 0;
 		background-color: #f1f1f1;
 	}
+	.submenu_bottom_general_block {
+		display: flex;
+		justify-content: center;
+	}
 	.submenu_bottom_block {
 		display: flex;
 		justify-content: space-between;
+		&:last-child {
+			.submenu_bottom_item:nth-child(1) {
+				display: none;
+			}
+		}
 	}
 	.submenu_bottom_item {
 		padding: 0 27px;
@@ -340,6 +355,9 @@ header {
 // swiper_product
 .swiper_product {
 	padding: 20px 0 40px 0;
+	&.top_swiper {
+		display: none;
+	}
 	img {
 		width: 100%;
 		object-fit: cover;
